@@ -13,7 +13,7 @@ def calculate_result(input_file: str) -> int:
     left_array.sort()
     right_array.sort()
 
-    # calculeta sum of absolute diff
+    # calculate sum of absolute diff
     return sum(abs(left - right) for left, right in zip(left_array, right_array))
 
 
